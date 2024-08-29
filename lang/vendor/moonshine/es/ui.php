@@ -1,0 +1,95 @@
+<?php
+
+return [
+    'profile' => 'Perfil',
+    'dashboard' => 'Panel',
+    'add' => 'Añadir',
+    'create' => 'Crear',
+    'edit' => 'Editar',
+    'show' => 'Ver',
+    'save' => 'Guardar',
+    'saved' => 'Guardado',
+    'saved_error' => 'Ocurrió un error',
+    'filters' => 'Filtros',
+    'search' => 'Buscar',
+    'reset' => 'Restablecer',
+    'total' => 'Total',
+    'deleted' => 'Eliminado',
+    'delete' => 'Eliminar',
+    'deleting' => 'Eliminando',
+    'download' => 'Descargar',
+    'export' => 'Exportar',
+    'import' => 'Importar',
+    'cancel' => 'Cancelar',
+    'confirm' => 'Confirmar',
+    'close' => 'Cerrar',
+    'confirm_message' => '¿Estás seguro de que quieres eliminar el registro?',
+    'back' => 'Regresar',
+    'more' => 'Ir',
+    'all_sections' => 'Todas las secciones',
+    'file' => 'Archivo',
+    'loading' => 'Cargando ...',
+    'notfound' => 'Aún no hay registros',
+    'collapse_menu' => 'Contraer menú',
+    '404' => '¡Houston! Tenemos un problema - página no encontrada',
+    'copied' => '¡Copiado!',
+    'notifications' => [
+        'title' => 'Notificaciones',
+        'mark_as_read_all' => 'Marcar todo como leído',
+        'mark_as_read' => 'Marcar como leído',
+    ],
+    'login' => [
+        'title' => '¡Bienvenido a :moonshine_title!',
+        'description' => 'Por favor, inicia sesión en tu cuenta',
+        'authorization' => 'Autorización',
+        'remember_me' => 'Recuérdame',
+        'login' => 'Iniciar sesión',
+        'logout' => 'Cerrar sesión',
+        'username' => 'Nombre de usuario',
+        'email' => 'Correo electrónico',
+        'password' => 'Contraseña',
+        'or_socials' => 'o',
+    ],
+    'resource' => [
+        'system' => 'Sistema',
+        'role' => 'Roles',
+        'name' => 'Nombre',
+        'email' => 'Correo electrónico',
+        'password' => 'Contraseña',
+        'repeat_password' => 'Repetir contraseña',
+        'avatar' => 'Avatar',
+        'created_at' => 'Fecha de creación',
+        'admins_title' => 'Administradores',
+        'role_title' => 'Roles',
+        'role_name' => 'Nombre del rol',
+
+        'main_information' => 'Información principal',
+        'change_password' => 'Cambiar contraseña',
+
+        'link_socialite' => 'Vincular cuentas',
+        'linked_socialite' => 'Cuentas vinculadas',
+
+        'queued' => 'En cola',
+
+        'export' => [
+            'exported' => 'Exportado',
+            'confirm_content' => 'Confirma la exportación de datos',
+        ],
+
+        'import' => [
+            'imported' => 'Importado',
+            'file_required' => 'Archivo requerido',
+            'extension_not_supported' => 'Extensión de archivo no soportada'
+        ]
+    ],
+    'choices' => [
+        'no_results' => 'No se encontraron resultados',
+        'no_choices' => 'No hay opciones disponibles',
+        'item_select' => 'Haz clic para seleccionar',
+        'unique_item' => 'Solo se pueden agregar valores únicos',
+        'custom_add_item' => 'Solo se pueden agregar valores que cumplan ciertas condiciones',
+        'add_item' => 'Presiona Enter para añadir “:value”',
+        'max_item' => 'Número máximo de elementos: :count',
+        'remove_item' => 'Eliminar elemento',
+    ]
+];
